@@ -1,0 +1,139 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Normalize */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited {
+    color: none;
+}
+
+a:link {
+    color: none;
+}
+
+/* ========================Navbar========================== */
+nav{
+    position: fixed;
+    padding: 0 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 70px;
+    
+    background: rgba(0, 0, 0, 0.6);
+}
+
+nav .logoNav{
+
+    font-family: 'Playball';
+    font-weight: 400;
+    font-size: 67px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+nav .menu{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* ======================Bienvenida======================== */
+
+header #banner{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("./imagenes/bann.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .btn_welcome input{
+
+    /* padding: 10px 30px; */
+    margin: 25px;
+    border-radius: 50px;
+
+    background: linear-gradient(94deg, rgba(253,29,29,1) 4%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+    font-family: 'Playball';
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+/* =================Main================================ */
+
+article{
+    margin: 0px 180px;
+}
+
+main section.bg_black{
+
+    background-color: black;
+}
+
+section .title_black{
+    
+    margin: 0 30px;
+    padding: 30px;
+
+    font-family: 'Playball';
+    font-size: 35px;
+    text-align: center;
+    color: black
+}
+
+section .title_witch{
+    
+    margin: 0 30px;
+    padding: 30px;
+
+    font-family: 'Playball';
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+section article.txt_nos{
+    display: flex;
+    gap: 30px;
+}
+
+section div.txt_content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
